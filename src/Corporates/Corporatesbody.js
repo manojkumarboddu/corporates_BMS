@@ -27,11 +27,11 @@ function Corporatesbody() {
         <h4 style={{ textAlign: "center", paddingTop: "25px" }}>
           OUR PARTNERS
         </h4>
-        <ul style={{ listStyleType: "none" }}>
+        <ul className="ulcr" style={{ listStyleType: "none" }}>
           {images.map((item) => {
             return (
-              <li>
-                <img src={item} alt="" />
+              <li className="licr">
+                <img className="image" src={item} alt="" />
               </li>
             );
           })}
