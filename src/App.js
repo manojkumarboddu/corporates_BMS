@@ -11,6 +11,7 @@ import Activities from "./Activities/Activities";
 import BuzzItem from "./Buzz/BuzzItem";
 import Corporatesbody from "./Corporates/Corporatesbody";
 import Offers from "./Offers/Offers";
+import Giftcards from "./Giftcards/Giftcards";
 //import Corporatesbody from "./Corporates/Corporatesbody";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path="/stream" element={<Stream></Stream>}></Route>
           <Route path="/offers" element={<Offers></Offers>}></Route>
+          <Route path="/gifts" element={<Giftcards></Giftcards>}></Route>
           <Route
             path="/corporates"
             element={<Corporatesbody></Corporatesbody>}
